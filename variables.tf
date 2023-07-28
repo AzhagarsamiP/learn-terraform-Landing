@@ -39,22 +39,10 @@ variable "default_location" {
   description = "Sets the default location for resources, including references to location within Policy templates."
 }
 
-variable "deploy_corp_landing_zones" {
+variable "deploy_Fme_landing_zones" {
   type        = bool
   default     = false
   description = "If set to true, will deploy the \"Corp\" landing zones in addition to any core and custom landing zones."
-}
-
-variable "deploy_online_landing_zones" {
-  type        = bool
-  default     = false
-  description = "If set to true, will deploy the \"Online\" landing zones in addition to any core and custom landing zones."
-}
-
-variable "deploy_sap_landing_zones" {
-  type        = bool
-  default     = false
-  description = "If set to true, will deploy the \"SAP\" landing zones in addition to any core and custom landing zones."
 }
 
 variable "deploy_management_resources" {
