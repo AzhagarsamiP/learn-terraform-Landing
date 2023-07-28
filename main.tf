@@ -21,6 +21,6 @@ module "enterprise_scale" {
 
   # Control deployment of the core landing zone hierachy.
   deploy_core_landing_zones   = true
-  deploy_FME_landing_zones   = local.FME_corp_landing_zones
+  deploy_FME_landing_zones   = local.Deploy_Fme_landing_zones
   
 }
