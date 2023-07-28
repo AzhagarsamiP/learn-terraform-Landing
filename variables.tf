@@ -21,6 +21,17 @@ variable "subscription_id_connectivity" {
   description = "Sets the Subscription ID to use for Connectivity resources."
 }
 
+variable "subscription_id_Core services" {
+  type        = string
+  default     = ""
+  description = "Sets the Subscription ID to use for Landing Zone FME."
+}
+variable "subscription_id_AVS" {
+  type        = string
+  default     = ""
+  description = "Sets the Subscription ID to use for Landing Zone FME."
+}
+
 variable "root_id" {
   type        = string
   default     = "es"
